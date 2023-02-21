@@ -15,7 +15,7 @@ If you don't have it because you installed BlueZ 5.44+ manually; then you are cl
 Clone or download (the green "<>Code" button) the script; then in 
 your terminal navigate to the folder where this script is, and run this command: `bash fix_bt.sh`  
 
-If you are as impatient with your bluetooth adapter as I am, I recommend adding it to your ~/.bash_aliases file:  
+If you are as impatient with your bluetooth adapter as I am, consider adding it to your ~/.bash_aliases file:  
 `alias fix-bt='bash ~/Source/scripts/fix-my-bluetooth/fix_bt.sh'` (or wherever you put the .sh file)  
 so you can run it quickly by typing `fix-bt`, you will need a reboot before the alias works.  
 
