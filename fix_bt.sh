@@ -19,11 +19,12 @@ mainfunc(){
         sudo systemctl enable bluetooth || { echo "Failed to Enable systemd bluetooth service"; return 1; }
         echo "Restarting systemd bluetooth service"
         sudo systemctl start bluetooth || { echo "Failed to Start systemd bluetooth service"; return 1; }
-        echo "All done, if this didn't work, try rebooting your machine"
+        echo ""
+        echo "All done! if this didn't work, try rebooting your machine"
         return 0
     else
         echo "Not a valid device number"
-        return 0 # exit with no error
+        return 0
     fi
 }
 if ! mainfunc ; then
