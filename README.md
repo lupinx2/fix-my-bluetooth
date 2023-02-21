@@ -21,4 +21,4 @@ so you can run it quickly by typing `fix-bt`, you will need a reboot before the 
 
 ## Support  
 This script is provided "as is", without warranty of any kind.  
-If this doesn't work for you or breaks your system worse somehow, that's not my fault, it works on my machine.  
+If it doesn't work or breaks your system worse somehow, that's not my fault, it works on my machine.  
